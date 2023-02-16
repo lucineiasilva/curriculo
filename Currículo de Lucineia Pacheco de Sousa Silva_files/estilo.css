@@ -1,0 +1,16 @@
+.título {
+    color:#FFFFFF;
+    
+}
+
+.cabecalho  {
+
+     background-color: blueviolet;
+    text-align: center;
+}
+
+.perfil{
+    border: 2px solid #486288;
+    border-radius: 50%;
+
+}
