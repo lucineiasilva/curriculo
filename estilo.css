@@ -17,14 +17,12 @@
 
 .cabecalho  {
 
-    background-color: var(--cor-primaria);
     text-align: center;
-    background: linear-gradient(90deg,
-    rgba(72,98,136,1) 0%, rgba(152,51,108,1) 0%,
-    rgba(0,212,255,1) 100%), url("fundo.png");
+    background-color: var(--cor-primaria);
+    background: linear-gradient(90deg, rgba(72,98,136,1) 0%, rgba(152,51,108,0.7) 100%), url("fundo.png");
     background-repeat: no-repeat; 
     background-size: cover;
-    min-height: 500px
+    min-height: 500px;
 }
 
 .perfil{
