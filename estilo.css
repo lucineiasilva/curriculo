@@ -1,31 +1,33 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-:root{
+
+:root {
     --cor-primaria: #98336C;
-    --cor-secundaria:#486288; 
-    --fundo:#718387;   
-    --texto-primario:#000000;
-    --texto-secundario:#FFFFFF;
-    
-}
-.título {
-    color:var(--texto-primario);
-    
+    --cor-secundaria: #486288;
+    --fundo: #718387;
+    --texto-primario: #000000;
+    --texto-secundario: #FFFFFF;
+
 }
 
-.cabecalho  {
+.título {
+    color: var(--texto-primario);
+
+}
+
+.cabecalho {
 
     text-align: center;
     background-color: var(--cor-primaria);
-    background: linear-gradient(90deg, rgba(72,98,136,1) 0%, rgba(152,51,108,0.7) 100%), url("fundo.png");
-    background-repeat: no-repeat; 
+    background: linear-gradient(90deg, rgba(72, 98, 136, 1) 0%, rgba(152, 51, 108, 0.7) 100%), url("fundo.png");
+    background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
 }
 
-.perfil{
+.perfil {
     border: 2px solid var(--cor-secundaria);
     border-radius: 50%;
     margin: 50px;
@@ -34,45 +36,47 @@
 
 .redesociais img {
 
-        padding: 10px;
-    }
+    padding: 10px;
+}
 
 .menu {
-        background-color: var(--fundo);
-        list-style: none;
-        display: flex;
-    }
+    background-color: var(--fundo);
+    list-style: none;
+    display: flex;
+}
+
 .menu-item {
-        display: block;
-        padding: 10px;
-        text-decoration: none;
-        color: var(--texto-secundario);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--texto-secundario);
 
-    }
-.menu-item:hover{
-        color:var(--fundo);
-        background-color: var(--texto-secundario);
-        
-        
-    }
+}
+
+.menu-item:hover {
+    color: var(--fundo);
+    background-color: var(--texto-secundario);
+
+
+}
+
 .bloco-texto h2 {
-        border-bottom:  2px var(--cor-primaria) solid;
-     }
-.bloco-texto p {
-        line-height:  3;
-        
-        
+    border-bottom: 2px var(--cor-primaria) solid;
+}
 
-    }
-    
+.bloco-texto p {
+    line-height: 3;
+
+
+
+}
+
 .galeria {
-   
-    border-radius: 50%
-    margin: 0px;
+
+    border-radius: 50% margin: 0px;
     text-align: center;
     padding: 10px;
     margin: 50px;
 
 
 }
-
