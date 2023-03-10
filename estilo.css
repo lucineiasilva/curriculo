@@ -32,34 +32,47 @@
 
 }
 
-    .redesociais img {
+.redesociais img {
 
         padding: 10px;
     }
 
-    .menu {
+.menu {
         background-color: var(--fundo);
         list-style: none;
         display: flex;
     }
-    .menu-item {
+.menu-item {
         display: block;
         padding: 10px;
         text-decoration: none;
         color: var(--texto-secundario);
 
     }
-    .menu-item:hover{
+.menu-item:hover{
         color:var(--fundo);
         background-color: var(--texto-secundario);
         
         
     }
-     .bloco-texto h2 {
+.bloco-texto h2 {
         border-bottom:  2px var(--cor-primaria) solid;
      }
-    .bloco-texto p {
+.bloco-texto p {
         line-height:  3;
+        
+        
 
     }
+    
+.galeria {
    
+    border-radius: 50%
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+
+
+}
+
